@@ -13,6 +13,7 @@ body{
 -moz-box-shadow: -4px 4px 20px 0px rgba(248,3,3,0.47) inset;
 }
 header{
+    position: fixed;
     width: 100%;
     height: 100px;
     display: flex;
