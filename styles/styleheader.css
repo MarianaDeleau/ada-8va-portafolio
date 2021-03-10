@@ -1,0 +1,48 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    align-items: flex-end;
+    box-shadow: 2px 6px 5px -1px rgba(248,3,3,0.34);
+    -webkit-box-shadow: 2px 6px 5px -1px rgba(248,3,3,0.34);
+    -moz-box-shadow: 2px 6px 5px -1px rgba(248,3,3,0.34);
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    width: 450px;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: tomato;
+    text-decoration: none;
+}
+.botoncontacto{
+    width: 120px;
+    height: 40px;
+    background-color: tomato;
+    color:white;
+    border-radius: 40px;
+    border: 2px tomato solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botones{
+    color:white;
+}

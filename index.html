@@ -7,28 +7,54 @@
     <title>Mariana Deleau</title>
     <!--Styles-->
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/styleheader.css">
+    <link rel="stylesheet" href="./styles/stylebody.css">
 </head>
 <body>
     <header>
     <nav>
-        <p><a href="#hola">HOLA</a></p>
-        <p><a href="#misconocimientos">CONOCIMIENTOS</a></p>
-        <p><a href="#misproyectos">PROYECTOS</a></p>
-            <div class="botoncontacto">
-                <p><a href="#misdatos">CONTACTO</a></p>
-            </div>
+        <ul>
+            <li><a href="#hola">HOLA</a></li>
+            <li><a href="#misconocimientos">CONOCIMIENTOS</a></li>
+            <li><a href="#misproyectos">PROYECTOS</a></li>
+            <li>
+                <div class="botoncontacto">
+                    <a href="#misdatos"><p class="botones">CONTACTO</p></a>
+                </div>
+            </li>
+        </ul>
     </nav>
     </header>
-        <section class="portada" id="hola">
-            <h2>Hola! Soy</h2>
-            <h1 class="nombre">Mariana Deleau</h1>
-            <p class="descripcion">Desarrolladora, Lic. en Relaciones Públicas, fan de las mascotas.</p>
-            <div class="botonhago"><p>LO QUE HAGO</p></div>
-        </section>
-        <section class="conocimientos" id="misconocimientos">MIS CONOCIMIENTOS</section>
-        <section class="cita">CITA</section>
-        <section class="proyectos" id="misproyectos">MIS PROYECTOS</section>
-        <section class="contacto" id="misdatos">CONTACTO</section>
+        <main>
+            <a name="hola"></a>
+            <section>
+                <div class="presentacion">
+                    <div class="holasoy">
+                        <h2>Hola! Soy</h2>
+                        <h1 class="nombre">Mariana Deleau</h1>
+                        <p class="descripcion">Desarrolladora, Lic. en Relaciones Públicas, fan de las mascotas.</p>
+                        <div class="botonhago">
+                            <a href="#misconocimientos"><p class="botones">LO QUE HAGO</p></a>
+                        </div>
+                    </div>
+                    <img src="./assets/images/DrawHome.png">
+                </div>
+            </section>
+
+            <a name="misconocimientos"></a>
+            <section>
+                MIS CONOCIMIENTOS
+            </section>
+            <section>CITA</section>
+            <a name="misproyectos"></a>
+            <section>
+                MIS PROYECTOS
+            </section>
+            <a name="misdatos"></a>
+            <section>
+                CONTACTO
+            </section>
+    </main>
     <footer></footer>
 </body>
 </html>
