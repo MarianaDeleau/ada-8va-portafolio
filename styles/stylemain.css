@@ -64,6 +64,7 @@ h2{
     align-items: center;
 }
 .section-name{
+    width:100%;
     color: grey;
     text-align: center;
     margin: 0 0 20px
@@ -80,7 +81,7 @@ h2{
 width: 700px;
 height: 100%;
 display: flex;
-flex-wrap:wrap;
+flex-wrap: wrap;
 }
 .card{
     width: 200px;
@@ -126,8 +127,9 @@ flex-wrap:wrap;
 .fa-git-alt{
     color:#F34F29
 }
-
-
+.as{
+    text-align: start;
+}
 @media screen and (max-width: 725px) {
 
     section {
@@ -152,4 +154,41 @@ flex-wrap:wrap;
     p{
         text-align: center;
     }
+    .grid{
+        width: 98%;
+        height: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
     }
+    .card{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin:12px;    
+    }
+    .icon-card{
+    font-size: 60px;
+    margin-bottom: 12px;
+    }    
+    .bajada{
+    width: 100%;
+    }
+}
+
+   /* @media screen and (max-width: 850px) {
+        .bajada{
+            width: 90%;
+            }
+
+    @media screen and (max-width: 1000px) {
+        .bajada{
+            width: 80%;
+            }
+        }*/
