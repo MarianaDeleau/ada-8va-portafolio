@@ -44,3 +44,10 @@ a{
 .botones{
     color:white;
 }
+
+@media screen and (max-width: 725px) {
+
+header{
+    display: none;
+}
+}
