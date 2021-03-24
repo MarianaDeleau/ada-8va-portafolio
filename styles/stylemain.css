@@ -137,11 +137,36 @@ flex-wrap: wrap;
 .as{
     text-align: start;
 }
+.project-card{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin:15px;    
+}
 .thumb{
     width: 60%;
     height: 60%;
 }
-
+.card:hover{
+    border: 1px solid tomato;    
+}
+.project-card:hover {
+    box-shadow: 0px 10px 40px 0px rgba(248,3,3,0.34);
+    -webkit-box-shadow: 0px 10px 40px 0px rgba(248,3,3,0.34);
+    -moz-box-shadow: 0px 10px 40px 0px rgba(248,3,3,0.34);
+}
+.project-card:active {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(248, 3, 3, 0.34);
+    border-radius: 20px;
+}
 @media screen and (max-width: 725px) {
 
     section {
