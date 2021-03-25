@@ -54,3 +54,18 @@ footer{
     font-size: 12px;
     text-align: center;
 }
+
+@media screen and (max-width: 725px) {
+
+    footer{
+        height: 180px;
+    }
+
+    .nav-footer{
+        display: none;
+    }
+    .social-media{
+        width: 50%;
+        margin-top: 30px;
+    }
+    }
