@@ -30,6 +30,9 @@ a{
     color: tomato;
     text-decoration: none;
 }
+a:hover{
+    color: black;
+}
 .botoncontacto{
     width: 120px;
     height: 40px;
@@ -43,8 +46,12 @@ a{
 }
 .botones{
     color:white;
+    border:transparent;
 }
+.botoncontacto:hover {
+transform: scale(1.2);
 
+}
 @media screen and (max-width: 725px) {
 
 header{
