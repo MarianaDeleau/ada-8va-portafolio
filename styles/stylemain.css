@@ -71,7 +71,7 @@ h6{
     width:100%;
     color: grey;
     text-align: center;
-    margin: 0 0 20px
+    margin: 0 0 20px;
 }
 .conocimientos{
     background-color:rgba(233, 229, 229, 0.849);
@@ -79,7 +79,7 @@ h6{
 .bajada{
     width: 60%;
     text-align: center;
-    margin: 20px 0
+    margin: 20px 0;
 }
 .grid{
 width: 700px;
