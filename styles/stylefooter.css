@@ -7,6 +7,9 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
+
+/*FOOTER STYLES*/
+
 .nav-footer{
     width: 35%;
     height: 50px;
@@ -35,7 +38,6 @@ footer{
     list-style: none;
     align-items: center;    
 }
-
 .social-icons{
     width: 40px;
     height: 40px;
@@ -56,11 +58,16 @@ footer{
     text-align: center;
 }
 
+/*FOOTER SOCIAL ICONS HOVERS*/
+
 .social-icons:hover {
     color: white;
     background-color: tomato;
     transition-duration: 0.5s;
 }
+
+/*RESPONSIVE*/
+
 
 @media screen and (max-width: 725px) {
 
@@ -71,8 +78,10 @@ footer{
     .nav-footer{
         display: none;
     }
+
     .social-media{
         width: 50%;
         margin-top: 30px;
     }
-    }
+
+}

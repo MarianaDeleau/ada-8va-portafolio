@@ -27,6 +27,10 @@ textarea{
     padding: 15px;
     
 }
+
+/*STYLES CONTACT SECTION*/
+
+
 .container-contact{
     width: 100%;
     height: 100%;
@@ -43,7 +47,12 @@ textarea{
     align-items: start;
     margin-left: 50px ;
 }
-/*STYLES DE LOGOS REDES CONTACTAME*/
+.as{
+    text-align: start;
+}
+
+/*STYLES SOCIAL MEDIA ICONS CONTACTAME*/
+
 .contact-social-media{
     width: 100%;
     height: 100%;
@@ -72,8 +81,10 @@ textarea{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 0.5s;
 }
-/*FIN DE STYLES DE LOGOS REDES CONTACTAME*/
+/*STYLES CONTACT FORM */
+
 .escribime{
     width: 50%;
     height: 100%;
@@ -83,13 +94,13 @@ textarea{
     margin-left: 50px;
 }
 .form-line{
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 .div-input{
     width: 100%;
@@ -97,7 +108,6 @@ margin-top: 20px;
     flex-direction: column;
     margin-right: 15px;
 }
-
 .get-button{
     width: 150px;
     height: 40px;
@@ -111,21 +121,25 @@ margin-top: 20px;
     justify-content: center;
     outline: none;
 }
+
+/*SOCIAL MEDIA ICONS AND FORM, HOVERS AND ACTIVES*/
+
+
 .get-button:hover{
     transform: scale(1.2);
 }
 .get-button:active{
-   color:black;
+    color:black;
 }
 .social-item:hover .social-icons-form{
-        color: tomato;
-        background-color: transparent;
-        transition-duration: 0.5s;
+    color: tomato;
+    background-color: transparent;
+    transition-duration: 0.5s;
 }
 .social-item:active{
     background-color: transparent;
+    transform: scale(1.4);
     transition-duration: 0.5s;
-    transform: scale(1.3);
 }
 .red-input:focus {
     background-color: tomato;
@@ -133,6 +147,7 @@ margin-top: 20px;
     border: tomato;
 }
 
+/*RESPONSIVE*/
 
 @media screen and (max-width: 900px) {
 

@@ -13,13 +13,21 @@ h2{
     font-size: 30px;
     font-weight: 900;
 }
-h6{
+
+h4{
+    font-size: 17px;
+}
+
+h5{
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
     color:gray;
     
 }
+
+/*STYLE PRESENTATION SECTION*/
+
 .presentacion{
     width: 100%;
     height: 100%;
@@ -58,11 +66,17 @@ h6{
     width: 385px;
     height: 297px;
 }
+
+/*STYLE SECTIONS ANS TITLES*/
+
 .section-name{
     width:100%;
     color: grey;
     text-align: center;
     margin: 0 0 20px;
+}
+.conocimientos{
+    background-color:rgba(233, 229, 229, 0.849);
 }
 .habilidades{
     width: 100%;
@@ -72,19 +86,20 @@ h6{
     justify-content: space-evenly;
     align-items: center;
 }
-.conocimientos{
-    background-color:rgba(233, 229, 229, 0.849);
-}
 .bajada{
     width: 60%;
     text-align: center;
     margin: 20px 0;
 }
+
+/*STYLE SECTIONS WITH CARDS*/
+
+
 .grid{
-width: 700px;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card{
     width: 200px;
@@ -102,16 +117,9 @@ flex-wrap: wrap;
     font-size: 80px;
     margin-bottom: 15px;
 }
-.quote{
-    width: 100%;
-    height: 100%;
-    background-color: tomato;
-    color: white;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+/*STYLES SECTION HABILITIES*/
+
 .fa-html5{
     color:#E54D26
 }
@@ -130,9 +138,23 @@ flex-wrap: wrap;
 .fa-git-alt{
     color:#F34F29
 }
-.as{
-    text-align: start;
+
+/*QUOTE SECTION*/
+
+.quote{
+    width: 100%;
+    height: 100%;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+/*STYLES PROJECTS DEVELOPED*/
+
+
 .project-card{
     width: 200px;
     height: 200px;
@@ -150,6 +172,10 @@ flex-wrap: wrap;
     width: 60%;
     height: 60%;
 }
+
+/*MAIN SECTIONS HOVERS AND ACTIVES*/
+
+
 .card:hover{
     border: 1px solid tomato;
     transform: rotatey(360deg);
@@ -169,8 +195,11 @@ flex-wrap: wrap;
 .botonhago:hover {
     transform: scale(1.2);
 }
-@media screen and (max-width: 725px) {
 
+/*RESPONSIVE*/
+
+@media screen and (max-width: 725px) {
+    
     section {
         width: 100%;
         height: 100%;
@@ -238,4 +267,5 @@ flex-wrap: wrap;
         margin: 0 0 10px
     }
 }
+
 
