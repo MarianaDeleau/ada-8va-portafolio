@@ -1,7 +1,9 @@
 header{
-    position:fixed;
+    
     width: 100%;
     height: 80px;
+    position:fixed;
+    z-index: 9999;
     display: flex;
     background-color: white;
     align-items: flex-end;
@@ -57,7 +59,6 @@ a:active{
     background-color: tomato;
     border-radius: 15px;
     padding: 10px;
-
 }
 
 @media screen and (max-width: 725px) {

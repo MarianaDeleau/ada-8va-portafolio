@@ -98,10 +98,34 @@ margin-top: 20px;
     margin-right: 15px;
 }
 
+.get-button{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    background-color: tomato;
+    color:white;
+    border:transparent;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.get-button:hover{
+    transform: scale(1.2);
+}
+.get-button:active{
+   color:black;
+}
 .social-item:hover .social-icons-form{
         color: tomato;
         background-color: transparent;
         transition-duration: 0.5s;
+}
+.social-item:active{
+    background-color: transparent;
+    transition-duration: 0.5s;
+    transform: scale(1.3);
 }
 .red-input:focus {
     background-color: tomato;
@@ -109,7 +133,19 @@ margin-top: 20px;
     border: tomato;
 }
 
+/*
+a:active{
+    color: white;
+    background-color: tomato;
+    border-radius: 15px;
+    padding: 10px;
+}
 
+.social-icons:hover {
+    color: white;
+    background-color: tomato;
+    transition-duration: 0.5s;
+}*/
 
 @media screen and (max-width: 900px) {
 
@@ -139,8 +175,7 @@ margin-top: 20px;
         width: 80%;
         margin-left: 0;
         margin-top: 20px;
-    }
-    
+    }    
     .as{
         text-align: center;
     }

@@ -55,6 +55,12 @@ footer{
     text-align: center;
 }
 
+.social-icons:hover {
+    color: white;
+    background-color: tomato;
+    transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 725px) {
 
     footer{
