@@ -41,7 +41,7 @@ textarea{
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-right: 50px ;
+    margin-left: 50px ;
 }
 /*STYLES DE LOGOS REDES CONTACTAME*/
 .contact-social-media{
@@ -133,19 +133,6 @@ margin-top: 20px;
     border: tomato;
 }
 
-/*
-a:active{
-    color: white;
-    background-color: tomato;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.social-icons:hover {
-    color: white;
-    background-color: tomato;
-    transition-duration: 0.5s;
-}*/
 
 @media screen and (max-width: 900px) {
 
@@ -165,7 +152,7 @@ a:active{
     }
     .contact-me{
         width: 80%;
-        margin-right: 0;
+        margin-left: 0;
     }
     .contact-social-media{
         margin-top: 10px;
