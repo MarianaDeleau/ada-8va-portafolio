@@ -148,6 +148,7 @@ textarea{
     border: tomato;
 }
 
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 900px) {
@@ -155,6 +156,7 @@ textarea{
     form{
         align-items: center;
     }
+    
     input{
         padding-left: 10px;
         align-self: center;
@@ -166,24 +168,37 @@ textarea{
         justify-content: space-between;
         padding: 20px;
     }
+
     .contact-me{
-        width: 80%;
+        width: 100%;
         margin-left: 0;
     }
+
     .contact-social-media{
         margin-top: 10px;
         margin-left: 10px;
     }
+
     .escribime{
-        width: 80%;
+        width: 100%;
         margin-left: 0;
-        margin-top: 20px;
+        margin-top: 30px;
     }    
+
     .as{
         text-align: center;
     }
+
     .form-line{
         justify-content: center;
     }
-    
+
+    .social-item{
+        height: 50px;
+    }
+
+    .social-icons-form{
+        margin: 10px 10px 10px 0;
+}
+
 }

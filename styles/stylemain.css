@@ -169,7 +169,7 @@ h5{
     justify-content: center;
     align-items: center;
     margin:15px; 
-    transition-duration: 0.5s;   
+    transition-duration: 0.2s;   
 }
 .thumb{
     width: 60%;
@@ -183,7 +183,7 @@ h5{
 .card:hover{
     border: 1px solid tomato;
     transform: rotatey(360deg);
-    transition-duration: 1s;    
+    transition-duration: 0.5s;    
 }
 .project-card:hover {
     transform: scale(1.2);
@@ -219,6 +219,7 @@ h5{
         flex-direction: column-reverse;
         align-items: center;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     .holasoy{
@@ -240,10 +241,6 @@ h5{
         background-color: white;
         border-radius: 20px;
         font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         margin:12px;    
     }
 
