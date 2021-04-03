@@ -176,6 +176,7 @@ h5{
     height: 60%;
 }
 
+
 /*MAIN SECTIONS HOVERS AND ACTIVES*/
 
 
@@ -185,15 +186,12 @@ h5{
     transition-duration: 1s;    
 }
 .project-card:hover {
-    box-shadow: 0px 10px 40px 0px rgba(248,3,3,0.34);
     transform: scale(1.2);
     transition-duration: 0.5s;
 }
 .project-card:active {
-    width: 200px;
-    height: 200px;
-    background-color: rgba(248, 3, 3, 0.34);
-    border-radius: 20px;
+    box-shadow: 0px 10px 40px 0px rgba(248,3,3,0.34);
+    transition-duration: 0.2s;
 }
 .botonhago:hover {
     transform: scale(1.2);
