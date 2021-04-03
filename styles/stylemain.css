@@ -252,16 +252,10 @@ h5{
     .project-card{
         width: 130px;
         height: 130px;
-        background-color: white;
-        border-radius: 20px;
         font-size: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         margin:12px;    
     }
-
+    
     .icon-card{
         font-size: 60px;
         margin-bottom: 12px;
@@ -279,6 +273,13 @@ h5{
     .section-name{
         margin: 0 0 10px
     }
+
+    .project-card:active {
+        border: 1px solid tomato; 
+        transform: scale(1.2);
+        transition-duration: 0.2s;       
+    }
+
 }
 
 
