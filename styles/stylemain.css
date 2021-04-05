@@ -68,6 +68,8 @@ h5{
 .drawing{
     width: 385px;
     height: 297px;
+    filter: drop-shadow(4px 6px 10px grey);
+    transition-duration: 0.5s;
 }
 
 /*STYLE SECTIONS ANS TITLES*/
@@ -115,6 +117,7 @@ h5{
     justify-content: center;
     align-items: center;
     margin:15px;
+    transition-duration: 0.5s;
 }
 .icon-card{
     font-size: 80px;
@@ -124,7 +127,7 @@ h5{
 /*STYLES SECTION HABILITIES*/
 
 .fa-html5{
-    color:#E54D26
+    color:#E54D26;
 }
 .fa-css3-alt{
     color:#3D8FC6
@@ -141,6 +144,7 @@ h5{
 .fa-git-alt{
     color:#F34F29
 }
+
 
 /*QUOTE SECTION*/
 
@@ -174,6 +178,7 @@ h5{
 .thumb{
     width: 60%;
     height: 60%;
+    filter:drop-shadow(4px 6px 10px grey);
 }
 
 
@@ -181,22 +186,23 @@ h5{
 
 
 .card:hover{
-    border: 1px solid tomato;
-    transform: rotatey(360deg);
+    border: 2px solid tomato;
+    filter:drop-shadow(4px 6px 10px grey);
     transition-duration: 0.5s;    
 }
 .project-card:hover {
     transform: scale(1.2);
+    filter:drop-shadow(2px 4px 8px grey);
     transition-duration: 0.5s;
-}
-.project-card:active {
-    box-shadow: 0px 10px 40px 0px rgba(248,3,3,0.34);
-    transition-duration: 0.2s;
 }
 .botonhago:hover {
     transform: scale(1.2);
 }
 
+.drawing:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
 /*RESPONSIVE*/
 
 @media screen and (max-width: 725px) {
@@ -227,6 +233,10 @@ h5{
         align-items: center;
     }
 
+    .drawing:hover{
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+    }
     .grid{
         width: 98%;
         height: 100%;
